@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+body{
+    background-color: lightseagreen;
+}
+
+.name{
+    font-family: 'Roboto';
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    font-size: 24px;
+}
+
+.address{
+    font-family: 'Noto Sans';
+    margin-left: 1.5rem;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+.numberAndEmail{
+    font-family: 'Noto Sans';
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-left: 33.8%;
+    margin-right: 32.6%;
+}
+
+.summary{
+    font-family: 'Noto Sans';
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.summary p{
+    padding-left: 5%;
+    font-size: 18px;
+}
+
+.education{
+    font-family: 'Noto Sans';
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.education p{
+    padding-left: 5%;
+    font-size: 18px;
+}
+
+.workExperience{
+    font-family: 'Noto Sans';
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.workExperience h3{
+    padding-left: 5%;
+    line-height: .5;
+}
+
+.workExperience ul{
+    padding-left: 10%;
+    list-style-type: '-     ';
+    font-size: 18px;
+}
+
+.skills{
+    font-family: 'Noto Sans';
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.skills ul{
+    padding-left: 5%;
+    list-style-type: '-     ';
+    font-size: 18px;
+}
